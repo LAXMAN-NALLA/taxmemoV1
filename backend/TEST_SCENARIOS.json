@@ -1,0 +1,224 @@
+{
+  "scenarios": [
+    {
+      "name": "Tech Startup - R&D Focus",
+      "description": "Small software startup wanting to establish presence and leverage R&D tax credits",
+      "request": {
+        "companyName": "SaaS Innovators Inc.",
+        "industry": "Software & Technology",
+        "employeeCount": 5,
+        "entryGoals": ["Establish physical presence", "Tax optimization"],
+        "primaryJurisdiction": "Netherlands",
+        "taxConsiderations": ["Corporate income tax implications", "R&D tax credits"],
+        "additionalContext": "We develop our own IP and want to know about R&D incentives like WBSO and Innovation Box."
+      }
+    },
+    {
+      "name": "E-commerce Company - Digital Services",
+      "description": "E-commerce platform expanding to Netherlands",
+      "request": {
+        "companyName": "Global Marketplace Ltd",
+        "industry": "E-commerce & Retail",
+        "employeeCount": 25,
+        "entryGoals": ["Establish physical presence", "Hire employees", "Tax optimization"],
+        "primaryJurisdiction": "Netherlands",
+        "currentRevenue": 5000000,
+        "projectedRevenue": 8000000,
+        "taxConsiderations": ["VAT obligations", "Digital services tax"],
+        "additionalContext": "We operate an online marketplace and need to understand GDPR compliance and VAT registration requirements."
+      }
+    },
+    {
+      "name": "Holding Company - Tax Structure",
+      "description": "Holding company looking to optimize tax structure",
+      "request": {
+        "companyName": "European Holdings BV",
+        "industry": "Financial Services",
+        "companyType": "Holding Company",
+        "employeeCount": 3,
+        "entryGoals": ["Tax optimization", "Establish physical presence"],
+        "primaryJurisdiction": "Netherlands",
+        "currentRevenue": 10000000,
+        "taxConsiderations": ["Participation exemption", "Holding company benefits", "Tax treaties"],
+        "additionalContext": "We want to understand the participation exemption (deelnemingsvrijstelling) and how it applies to our holding structure."
+      }
+    },
+    {
+      "name": "Manufacturing Company - Physical Operations",
+      "description": "Manufacturing company setting up production facility",
+      "request": {
+        "companyName": "Advanced Manufacturing Corp",
+        "industry": "Manufacturing",
+        "employeeCount": 50,
+        "entryGoals": ["Establish physical presence", "Hire employees", "Tax optimization"],
+        "primaryJurisdiction": "Netherlands",
+        "currentRevenue": 15000000,
+        "plannedEmployees": 75,
+        "preferredStructure": "BV",
+        "taxConsiderations": ["Corporate income tax", "Employment tax", "VAT"],
+        "additionalContext": "We're setting up a manufacturing facility and need to understand employment law, payroll taxes, and corporate structure options."
+      }
+    },
+    {
+      "name": "Consulting Firm - Service Business",
+      "description": "Professional services firm expanding to Netherlands",
+      "request": {
+        "companyName": "Strategic Consulting Group",
+        "industry": "Professional Services",
+        "employeeCount": 15,
+        "entryGoals": ["Establish physical presence", "Hire employees"],
+        "primaryJurisdiction": "Netherlands",
+        "currentRevenue": 3000000,
+        "plannedEmployees": 25,
+        "preferredStructure": "Branch Office",
+        "taxConsiderations": ["Corporate income tax", "VAT on services"],
+        "additionalContext": "We provide consulting services and want the fastest way to establish presence. Prefer branch office over full BV setup."
+      }
+    },
+    {
+      "name": "Biotech Startup - Innovation Box",
+      "description": "Biotech company with IP looking for Innovation Box benefits",
+      "request": {
+        "companyName": "BioTech Innovations BV",
+        "industry": "Biotechnology",
+        "employeeCount": 12,
+        "entryGoals": ["Tax optimization", "Establish physical presence"],
+        "primaryJurisdiction": "Netherlands",
+        "currentRevenue": 2000000,
+        "taxConsiderations": ["Innovation Box regime", "R&D tax credits", "IP tax benefits"],
+        "additionalContext": "We have significant IP and want to maximize benefits from Innovation Box (9% tax rate) and WBSO R&D credits."
+      }
+    },
+    {
+      "name": "Small Business - Minimal Setup",
+      "description": "Small business wanting simple, quick entry",
+      "request": {
+        "companyName": "Local Services Co",
+        "industry": "Small Business",
+        "employeeCount": 2,
+        "entryGoals": ["Establish physical presence"],
+        "primaryJurisdiction": "Netherlands",
+        "currentRevenue": 150000,
+        "preferredStructure": "Branch Office",
+        "taxConsiderations": ["Simplified tax structure"],
+        "additionalContext": "We're a small business looking for the simplest and fastest way to establish presence in Netherlands."
+      }
+    },
+    {
+      "name": "FinTech Company - Regulatory Focus",
+      "description": "Financial technology company needing regulatory compliance",
+      "request": {
+        "companyName": "FinTech Solutions BV",
+        "industry": "Financial Technology",
+        "employeeCount": 30,
+        "entryGoals": ["Establish physical presence", "Hire employees", "Compliance"],
+        "primaryJurisdiction": "Netherlands",
+        "currentRevenue": 8000000,
+        "compliancePriorities": ["Financial regulations", "GDPR", "AML compliance"],
+        "taxConsiderations": ["Corporate income tax", "Financial services tax"],
+        "additionalContext": "We need to understand regulatory requirements for fintech companies, including AML, KYC, and financial services licensing."
+      }
+    },
+    {
+      "name": "VC-Backed Startup - Growth Focus",
+      "description": "Well-funded startup planning rapid expansion",
+      "request": {
+        "companyName": "ScaleUp Ventures Inc",
+        "industry": "Software & Technology",
+        "employeeCount": 40,
+        "entryGoals": ["Establish physical presence", "Hire employees", "Tax optimization"],
+        "primaryJurisdiction": "Netherlands",
+        "currentRevenue": 12000000,
+        "projectedRevenue": 25000000,
+        "fundingStatus": "VC-backed",
+        "plannedEmployees": 100,
+        "preferredStructure": "BV",
+        "taxConsiderations": ["Corporate income tax", "Employee stock options", "R&D credits"],
+        "additionalContext": "We're VC-backed and planning rapid growth. Need to understand employee stock option plans, R&D credits, and optimal corporate structure for scaling."
+      }
+    },
+    {
+      "name": "Family Business - Long-term Investment",
+      "description": "Family-owned business making long-term investment",
+      "request": {
+        "companyName": "Family Enterprises BV",
+        "industry": "Manufacturing",
+        "employeeCount": 20,
+        "entryGoals": ["Establish physical presence", "Long-term investment"],
+        "primaryJurisdiction": "Netherlands",
+        "currentRevenue": 5000000,
+        "preferredStructure": "BV",
+        "taxConsiderations": ["Corporate income tax", "Succession planning", "Long-term tax strategy"],
+        "additionalContext": "We're a family business looking for stable, long-term structure. Need advice on BV setup, tax planning, and succession considerations."
+      }
+    },
+    {
+      "name": "Digital Agency - Service Provider",
+      "description": "Digital marketing agency expanding services",
+      "request": {
+        "companyName": "Digital Creative Agency",
+        "industry": "Marketing & Advertising",
+        "employeeCount": 8,
+        "entryGoals": ["Establish physical presence", "Hire employees"],
+        "primaryJurisdiction": "Netherlands",
+        "currentRevenue": 800000,
+        "plannedEmployees": 15,
+        "preferredStructure": "Branch Office",
+        "taxConsiderations": ["VAT on services", "Corporate income tax"],
+        "additionalContext": "We provide digital marketing services. Need to understand VAT obligations for service providers and employment law for hiring local talent."
+      }
+    },
+    {
+      "name": "Pharmaceutical Company - R&D Heavy",
+      "description": "Pharma company with extensive R&D activities",
+      "request": {
+        "companyName": "Pharma Research Labs",
+        "industry": "Pharmaceuticals",
+        "employeeCount": 60,
+        "entryGoals": ["Tax optimization", "Establish physical presence"],
+        "primaryJurisdiction": "Netherlands",
+        "currentRevenue": 25000000,
+        "taxConsiderations": ["R&D tax credits", "Innovation Box", "Patent box benefits"],
+        "additionalContext": "We have extensive R&D activities and patents. Want to maximize WBSO credits and Innovation Box benefits for our research operations."
+      }
+    }
+  ],
+  "minimal_test": {
+    "name": "Minimal Request - Only Required Fields",
+    "description": "Test with minimum required fields only",
+    "request": {
+      "companyName": "Test Company Ltd",
+      "primaryJurisdiction": "Netherlands"
+    }
+  },
+  "comprehensive_test": {
+    "name": "Comprehensive Request - All Fields",
+    "description": "Test with all possible fields filled",
+    "request": {
+      "companyName": "Comprehensive Test Corp",
+      "industry": "Software & Technology",
+      "companyType": "BV",
+      "foundingYear": 2020,
+      "headquartersLocation": "United States",
+      "primaryJurisdiction": "Netherlands",
+      "targetMarkets": ["Netherlands", "Belgium", "Germany"],
+      "entryGoals": ["Establish physical presence", "Tax optimization", "Hire employees"],
+      "selectedLegalTopics": ["employment-law", "tax-law", "corporate-law"],
+      "currentRevenue": 10000000,
+      "projectedRevenue": 20000000,
+      "budgetRange": "€500,000 - €1,000,000",
+      "fundingStatus": "VC-backed",
+      "employeeCount": 50,
+      "plannedEmployees": 100,
+      "currentOperations": ["Software development", "SaaS platform"],
+      "keyProductsServices": ["Cloud software", "Enterprise solutions"],
+      "timelinePreference": "6 months",
+      "urgencyLevel": "High",
+      "preferredStructure": "BV",
+      "taxConsiderations": ["Corporate income tax", "R&D tax credits", "Innovation Box"],
+      "compliancePriorities": ["GDPR", "Employment law", "Tax compliance"],
+      "additionalContext": "We're a well-funded SaaS company planning rapid expansion into the Netherlands. We develop our own IP and want to maximize R&D tax benefits while ensuring full compliance."
+    }
+  }
+}
+

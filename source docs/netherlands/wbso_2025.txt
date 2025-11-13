@@ -1,0 +1,43 @@
+WBSO (Wet Bevordering Speur- en Ontwikkelingswerk) R&D Tax Credit Rates 2025
+
+The WBSO (Research and Development Tax Credit Act) provides tax benefits for companies engaged in research and development activities in the Netherlands.
+
+2025 WBSO Tax Credit Rates:
+
+For the first 350,000 euros of R&D wage costs:
+- Tax credit rate: 32% (increased from previous years)
+- This applies to the first tranche of qualifying R&D wage costs
+
+For wage costs above 350,000 euros:
+- Tax credit rate: 16%
+- This applies to the second tranche of qualifying R&D wage costs
+
+Key Points for 2025:
+- The threshold of 350,000 euros is indexed annually
+- The tax credit reduces the wage tax and social security contributions payable
+- Companies can claim WBSO for both in-house R&D and contracted R&D work
+- The credit applies to wages of employees directly involved in R&D activities
+
+Eligibility Requirements:
+- R&D activities must involve technical-scientific research
+- Activities must be innovative and involve technical uncertainty
+- The work must be systematic and aimed at acquiring new knowledge
+- Both profit and non-profit organizations can apply
+
+Application Process:
+- Companies must apply for WBSO before starting R&D activities
+- Applications are submitted to the Netherlands Enterprise Agency (RVO)
+- The WBSO declaration must be submitted within 5 months after the end of the calendar year
+- Advance rulings are available for certainty on eligibility
+
+Interaction with Other Tax Benefits:
+- WBSO can be combined with the Innovation Box regime
+- The tax credit is applied before calculating corporate income tax
+- For startups, additional benefits may be available under the starter's deduction
+
+Important Notes for 2025:
+- The rates have been increased to support innovation post-COVID
+- Small and medium-sized enterprises (SMEs) receive the same rates as larger companies
+- The credit is calculated on gross wage costs including social security contributions
+- Documentation requirements are strict - companies must maintain detailed records of R&D activities
+

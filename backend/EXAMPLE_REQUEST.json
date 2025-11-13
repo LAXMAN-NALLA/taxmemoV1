@@ -1,0 +1,46 @@
+{
+  "company_name": "TechStart Inc",
+  "industry": "Software & Technology",
+  "company_type": "LLC",
+  "founding_year": 2020,
+  "headquarters_location": "United States",
+  "primary_jurisdiction": "Netherlands",
+  "target_markets": ["Netherlands", "Belgium"],
+  "entry_goals": [
+    "Hire employees",
+    "Establish office",
+    "Register for VAT"
+  ],
+  "selected_legal_topics": [
+    "employment-law",
+    "tax-compliance"
+  ],
+  "current_revenue": 1000000.0,
+  "projected_revenue": 2500000.0,
+  "budget_range": "€50,000 - €100,000",
+  "funding_status": "VC-backed",
+  "employee_count": 15,
+  "planned_employees": 25,
+  "current_operations": [
+    "Software development",
+    "SaaS platform"
+  ],
+  "key_products_services": [
+    "Cloud-based CRM software",
+    "API integrations"
+  ],
+  "timeline_preference": "6 months",
+  "urgency_level": "Medium",
+  "preferred_structure": "BV",
+  "tax_considerations": [
+    "Corporate income tax",
+    "VAT registration",
+    "WBSO tax credits"
+  ],
+  "compliance_priorities": [
+    "GDPR compliance",
+    "Employment law compliance"
+  ],
+  "additional_context": "We are a fast-growing SaaS company looking to expand into the European market. We need to hire local developers and establish a physical presence in Amsterdam."
+}
+

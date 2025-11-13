@@ -1,0 +1,96 @@
+{
+  "generated_on": "2025-10-29",
+  "description": "Metadata and official links for sources on fiscal residence, emigratiedate, and place of effective management (Dutch sources).",
+  "sources": [
+    {
+      "type": "wet",
+      "title": "Algemene wet inzake rijksbelastingen (AWR) - Artikel 4",
+      "url": "https://wetten.overheid.nl/BWBR0002320/",
+      "note": "Bekijk artikel 4 op wetten.overheid.nl"
+    },
+    {
+      "type": "wet",
+      "title": "Wet inkomstenbelasting 2001 - Artikel 2.1",
+      "url": "https://wetten.overheid.nl/BWBR0011353/",
+      "note": "Binnenlandse belastingplicht (art. 2.1)"
+    },
+    {
+      "type": "wet",
+      "title": "Wet op de vennootschapsbelasting 1969",
+      "url": "https://wetten.overheid.nl/BWBR0002672/",
+      "note": "Zie bepalingen over vestigingsplaats/oprichtingsfictie (artikel 2)"
+    },
+    {
+      "type": "belastingdienst",
+      "title": "Belastingdienst - Aangifte over het jaar van emigratie (M-biljet)",
+      "url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/buitenland/content/deels-niet-in-nederland-wonen-m-aangifte-doen",
+      "note": "Toelichting en bestellen M-formulier"
+    },
+    {
+      "type": "rijksoverheid",
+      "title": "Rijksoverheid - Uitschrijven uit de BRP",
+      "url": "https://www.rijksoverheid.nl/onderwerpen/privacy-en-persoonsgegevens/vraag-en-antwoord/uitschrijven-basisregistratie-personen",
+      "note": "Uitschrijving bij >8 maanden verblijf in het buitenland"
+    },
+    {
+      "type": "rechtspraak",
+      "title": "HR 21 januari 2011, ECLI:NL:HR:2011:BP1466",
+      "url": "https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3AHR%3A2011%3ABP1466",
+      "note": "Woonplaatsbegrip - AKW / fiscale aansluiting"
+    },
+    {
+      "type": "rechtspraak",
+      "title": "HR 4 maart 2011, ECLI:NL:HR:2011:BP6285",
+      "url": "https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3AHR%3A2011%3ABP6285",
+      "note": "Feitelijke omstandigheden; duurzame band"
+    },
+    {
+      "type": "rechtspraak",
+      "title": "Rechtbank Zeeland-West-Brabant 20 mei 2016, ECLI:NL:RBZWB:2016:3272",
+      "url": "https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3ARBZWB%3A2016%3A3272",
+      "note": "Uitschrijfdatum BRP als uitgangspunt"
+    },
+    {
+      "type": "rechtspraak",
+      "title": "HR 23 september 1992, ECLI:NL:HR:1992:ZC5105",
+      "url": "https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3AHR%3A1992%3AZC5105",
+      "note": "Crown Forest - Werkelijke leiding / feitelijke leiding"
+    },
+    {
+      "type": "rechtspraak",
+      "title": "HR 7 maart 2008, ECLI:NL:HR:2008:BC6772",
+      "url": "https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3AHR%3A2008%3ABC6772",
+      "note": "Management-BV - feitelijke leiding"
+    },
+    {
+      "type": "rechtspraak",
+      "title": "HR 19 januari 2018, ECLI:NL:HR:2018:47",
+      "url": "https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3AHR%3A2018%3A47",
+      "note": "Place of effective management guidance"
+    },
+    {
+      "type": "rechtspraak",
+      "title": "HR 2 juli 2021, ECLI:NL:HR:2021:1044",
+      "url": "https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3AHR%3A2021%3A1044",
+      "note": "Feitelijke leiding via adviseur"
+    },
+    {
+      "type": "rechtspraak",
+      "title": "HR 27 januari 1988, ECLI:NL:HR:1988:ZC3744",
+      "url": "https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3AHR%3A1988%3AZC3744",
+      "note": "Unilever - fraus legis / misbruik van recht"
+    },
+    {
+      "type": "other",
+      "title": "Uitvoeringsregeling Algemene wet inzake rijksbelastingen",
+      "url": "https://wetten.overheid.nl/BWBR0006736/",
+      "note": "Uitvoeringsregeling AWR"
+    },
+    {
+      "type": "other",
+      "title": "Toelichting aangifte M 2024 (Belastingdienst)",
+      "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/themaoverstijgend/brochures_en_publicaties/toelichting-aangifte-m-2024",
+      "note": "Praktische toelichting bij M-biljet"
+    }
+  ]
+}

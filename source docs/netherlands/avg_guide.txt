@@ -1,0 +1,96 @@
+GDPR (AVG - Algemene Verordening Gegevensbescherming) Requirements for Small Businesses in Netherlands 2025
+
+The General Data Protection Regulation (GDPR), known as AVG in Dutch, applies to all businesses processing personal data, regardless of size.
+
+Core Requirements for Small Businesses:
+
+1. Legal Basis for Processing:
+- Consent: Must be freely given, specific, informed, and unambiguous
+- Contract: Processing necessary for contract performance
+- Legal obligation: Required by Dutch or EU law
+- Legitimate interests: Must balance business interests with data subject rights
+
+2. Data Subject Rights (Individuals can request):
+- Right of access: Request copies of their personal data
+- Right to rectification: Correct inaccurate data
+- Right to erasure: "Right to be forgotten" under certain conditions
+- Right to restrict processing: Limit how data is used
+- Right to data portability: Receive data in machine-readable format
+- Right to object: Object to processing based on legitimate interests
+
+3. Documentation Requirements:
+- Records of processing activities (mandatory for companies with 250+ employees, recommended for smaller)
+- Privacy policy/statement for website and customer communications
+- Data processing agreements with third-party processors
+- Data breach notification procedures
+
+4. Security Measures:
+- Technical measures: Encryption, access controls, secure storage
+- Organizational measures: Staff training, access policies, regular audits
+- Appropriate to the risk level of the data being processed
+
+5. Data Breach Notification:
+- Report to Dutch Data Protection Authority (Autoriteit Persoonsgegevens - AP) within 72 hours
+- Notify affected individuals if high risk to their rights and freedoms
+- Document all breaches, even if notification not required
+
+6. Data Protection Officer (DPO):
+- Required if: core activities involve large-scale processing of special categories of data, or systematic monitoring
+- Most small businesses do NOT need a DPO, but should designate a privacy contact person
+
+7. International Transfers:
+- Personal data can only be transferred outside EU/EEA with appropriate safeguards
+- Standard Contractual Clauses (SCCs) are commonly used
+- Adequacy decisions exist for certain countries (UK, Japan, etc.)
+
+Practical Steps for Small Businesses:
+
+1. Conduct a data audit:
+- What personal data do you collect?
+- Why do you collect it?
+- Where is it stored?
+- Who has access?
+- How long do you keep it?
+
+2. Update privacy notices:
+- Clear, plain language
+- Explain what data you collect and why
+- Inform about rights
+- Contact information for privacy inquiries
+
+3. Implement basic security:
+- Strong passwords and two-factor authentication
+- Regular software updates
+- Secure backups
+- Access controls
+
+4. Train staff:
+- Basic GDPR awareness
+- How to handle data subject requests
+- What constitutes a data breach
+- When to escalate issues
+
+5. Review third-party contracts:
+- Ensure processors (cloud services, payment processors, etc.) are GDPR compliant
+- Have data processing agreements in place
+
+Penalties for Non-Compliance:
+- Up to 20 million euros or 4% of annual global turnover, whichever is higher
+- Dutch AP focuses on education and guidance for small businesses, but can issue fines for serious violations
+- Reputational damage can be significant
+
+Resources for Small Businesses:
+- Autoriteit Persoonsgegevens (AP) website: www.autoriteitpersoonsgegevens.nl
+- Free GDPR compliance tools and templates available
+- Consider consulting with a privacy lawyer for complex situations
+
+Key Dates and Deadlines:
+- GDPR has been in effect since May 25, 2018
+- No new requirements for 2025, but enforcement continues
+- Regular reviews of compliance recommended annually
+
+Special Considerations for Dutch Small Businesses:
+- Dutch language privacy notices may be required for Dutch customers
+- Consider the ePrivacy Directive for cookies and electronic marketing
+- Sector-specific regulations may apply (healthcare, financial services, etc.)
+

@@ -1,0 +1,413 @@
+{
+  "test_cases": [
+    {
+      "name": "Minimal Request - Only Required Field",
+      "description": "Tests the API with just the required company_name field",
+      "request": {
+        "company_name": "Test Company LLC"
+      },
+      "expected_triggers": [
+        "Default tasks only (Executive Summary, Entry Options, Tax Overview, Timeline)"
+      ]
+    },
+    {
+      "name": "Software & Technology - Triggers WBSO Research",
+      "description": "Tests conditional logic for Software & Technology industry",
+      "request": {
+        "company_name": "TechStart Inc",
+        "industry": "Software & Technology",
+        "company_type": "LLC",
+        "founding_year": 2020,
+        "headquarters_location": "United States",
+        "primary_jurisdiction": "Netherlands",
+        "entry_goals": [
+          "Establish office",
+          "Hire developers"
+        ],
+        "current_revenue": 1000000.0,
+        "employee_count": 15,
+        "timeline_preference": "6 months",
+        "preferred_structure": "BV"
+      },
+      "expected_triggers": [
+        "WBSO and Innovation Box Tax Credits Research (industry == 'Software & Technology')"
+      ]
+    },
+    {
+      "name": "Employment Law Focus - Triggers Employment Research",
+      "description": "Tests conditional logic for employment-law legal topic",
+      "request": {
+        "company_name": "HR Solutions BV",
+        "industry": "Professional Services",
+        "entry_goals": [
+          "Hire employees",
+          "Establish office"
+        ],
+        "selected_legal_topics": [
+          "employment-law",
+          "tax-compliance"
+        ],
+        "employee_count": 10,
+        "planned_employees": 25,
+        "timeline_preference": "3 months"
+      },
+      "expected_triggers": [
+        "Dutch Employment Contracts and 30% Ruling Research (selected_legal_topics contains 'employment-law')",
+        "Payroll Tax and Employment Research (entry_goals contains 'Hire employees')"
+      ]
+    },
+    {
+      "name": "E-commerce & Retail - Full Request",
+      "description": "Complete request for e-commerce company",
+      "request": {
+        "company_name": "Global Retail Co",
+        "industry": "E-commerce & Retail",
+        "company_type": "Corporation",
+        "founding_year": 2018,
+        "headquarters_location": "United Kingdom",
+        "primary_jurisdiction": "Netherlands",
+        "target_markets": [
+          "Netherlands",
+          "Belgium"
+        ],
+        "entry_goals": [
+          "Sell products/services",
+          "Establish warehouse",
+          "Register for VAT"
+        ],
+        "current_revenue": 5000000.0,
+        "projected_revenue": 10000000.0,
+        "budget_range": "€200,000 - €500,000",
+        "funding_status": "VC-backed",
+        "employee_count": 50,
+        "planned_employees": 75,
+        "current_operations": [
+          "Online retail",
+          "Warehouse operations",
+          "Customer service"
+        ],
+        "key_products_services": [
+          "Consumer electronics",
+          "Home goods",
+          "Fashion accessories"
+        ],
+        "timeline_preference": "6-12 months",
+        "urgency_level": "Medium",
+        "preferred_structure": "BV",
+        "tax_considerations": [
+          "Corporate income tax",
+          "VAT registration and compliance",
+          "Import/export duties"
+        ],
+        "compliance_priorities": [
+          "GDPR compliance",
+          "Consumer protection laws"
+        ],
+        "additional_context": "We need to establish a European distribution center in the Netherlands to serve EU customers. We plan to hire local staff and set up warehouse operations."
+      },
+      "expected_triggers": [
+        "Default tasks only (no Software & Technology, no employment-law)"
+      ]
+    },
+    {
+      "name": "Software Company with Employment Focus",
+      "description": "Combines Software & Technology with employment goals",
+      "request": {
+        "company_name": "DevCorp B.V.",
+        "industry": "Software & Technology",
+        "company_type": "BV",
+        "founding_year": 2019,
+        "headquarters_location": "Germany",
+        "primary_jurisdiction": "Netherlands",
+        "target_markets": ["Netherlands"],
+        "entry_goals": [
+          "Hire employees",
+          "Establish development office",
+          "Apply for tax credits"
+        ],
+        "selected_legal_topics": [
+          "employment-law"
+        ],
+        "current_revenue": 2000000.0,
+        "projected_revenue": 5000000.0,
+        "employee_count": 20,
+        "planned_employees": 40,
+        "current_operations": [
+          "Software development",
+          "SaaS platform",
+          "API services"
+        ],
+        "key_products_services": [
+          "Enterprise software",
+          "Cloud infrastructure",
+          "Developer tools"
+        ],
+        "timeline_preference": "3-6 months",
+        "urgency_level": "High",
+        "preferred_structure": "BV",
+        "tax_considerations": [
+          "WBSO R&D tax credits",
+          "Innovation Box regime",
+          "Corporate income tax"
+        ],
+        "compliance_priorities": [
+          "Data protection (GDPR)",
+          "Employment law compliance"
+        ],
+        "additional_context": "We are a fast-growing SaaS company looking to expand our development team in Amsterdam. We need to understand WBSO tax credits and employment regulations for hiring Dutch developers."
+      },
+      "expected_triggers": [
+        "WBSO and Innovation Box Tax Credits Research (industry == 'Software & Technology')",
+        "Dutch Employment Contracts and 30% Ruling Research (selected_legal_topics contains 'employment-law')",
+        "Payroll Tax and Employment Research (entry_goals contains 'Hire employees')"
+      ]
+    },
+    {
+      "name": "Manufacturing Company",
+      "description": "Manufacturing industry with specific tax concerns",
+      "request": {
+        "company_name": "Manufacturing Solutions Ltd",
+        "industry": "Manufacturing",
+        "company_type": "Limited Company",
+        "founding_year": 2015,
+        "headquarters_location": "United States",
+        "primary_jurisdiction": "Netherlands",
+        "entry_goals": [
+          "Establish production facility",
+          "Hire employees",
+          "Import/export operations"
+        ],
+        "current_revenue": 15000000.0,
+        "projected_revenue": 25000000.0,
+        "budget_range": "€1,000,000 - €2,000,000",
+        "employee_count": 100,
+        "planned_employees": 150,
+        "current_operations": [
+          "Product manufacturing",
+          "Quality control",
+          "Supply chain management"
+        ],
+        "key_products_services": [
+          "Industrial equipment",
+          "Custom manufacturing"
+        ],
+        "timeline_preference": "12 months",
+        "urgency_level": "Low",
+        "preferred_structure": "BV",
+        "tax_considerations": [
+          "Corporate income tax",
+          "VAT on imports",
+          "Environmental taxes"
+        ],
+        "compliance_priorities": [
+          "Environmental regulations",
+          "Safety standards"
+        ],
+        "additional_context": "We plan to establish a manufacturing facility in the Netherlands to serve European markets. We need comprehensive tax and regulatory guidance."
+      },
+      "expected_triggers": [
+        "Payroll Tax and Employment Research (entry_goals contains 'Hire employees')"
+      ]
+    },
+    {
+      "name": "Financial Services Company",
+      "description": "Financial services with compliance focus",
+      "request": {
+        "company_name": "FinTech Solutions B.V.",
+        "industry": "Financial Services",
+        "company_type": "BV",
+        "founding_year": 2021,
+        "headquarters_location": "United States",
+        "primary_jurisdiction": "Netherlands",
+        "entry_goals": [
+          "Establish office",
+          "Obtain licenses",
+          "Hire compliance staff"
+        ],
+        "current_revenue": 3000000.0,
+        "projected_revenue": 8000000.0,
+        "budget_range": "€500,000 - €1,000,000",
+        "funding_status": "VC-backed",
+        "employee_count": 25,
+        "planned_employees": 50,
+        "current_operations": [
+          "Payment processing",
+          "Financial advisory",
+          "Compliance management"
+        ],
+        "key_products_services": [
+          "Payment gateway",
+          "Financial APIs",
+          "Compliance tools"
+        ],
+        "timeline_preference": "6-9 months",
+        "urgency_level": "High",
+        "preferred_structure": "BV",
+        "tax_considerations": [
+          "Corporate income tax",
+          "Financial services tax",
+          "VAT exemptions"
+        ],
+        "compliance_priorities": [
+          "Financial services licensing",
+          "AML compliance",
+          "Data protection"
+        ],
+        "additional_context": "We are a fintech company looking to expand into the Netherlands. We need to understand licensing requirements and tax implications for financial services."
+      },
+      "expected_triggers": [
+        "Payroll Tax and Employment Research (entry_goals contains 'Hire employees')"
+      ]
+    },
+    {
+      "name": "Consulting Services - Minimal Fields",
+      "description": "Consulting company with minimal information",
+      "request": {
+        "company_name": "Consulting Experts B.V.",
+        "industry": "Professional Services",
+        "entry_goals": [
+          "Establish office",
+          "Hire consultants"
+        ],
+        "employee_count": 5,
+        "planned_employees": 15,
+        "timeline_preference": "3 months"
+      },
+      "expected_triggers": [
+        "Payroll Tax and Employment Research (entry_goals contains 'Hire employees' - note: 'Hire consultants' won't trigger)"
+      ]
+    },
+    {
+      "name": "Startup - Bootstrapped",
+      "description": "Early-stage startup with limited resources",
+      "request": {
+        "company_name": "StartupXYZ",
+        "industry": "Software & Technology",
+        "company_type": "LLC",
+        "founding_year": 2024,
+        "headquarters_location": "United States",
+        "entry_goals": [
+          "Establish presence",
+          "Test market"
+        ],
+        "current_revenue": 0.0,
+        "projected_revenue": 500000.0,
+        "budget_range": "€10,000 - €50,000",
+        "funding_status": "Bootstrapped",
+        "employee_count": 3,
+        "planned_employees": 5,
+        "current_operations": [
+          "Product development",
+          "Market research"
+        ],
+        "key_products_services": [
+          "Mobile app",
+          "SaaS platform"
+        ],
+        "timeline_preference": "3 months",
+        "urgency_level": "High",
+        "preferred_structure": "Branch",
+        "tax_considerations": [
+          "Minimal tax obligations",
+          "Startup tax benefits"
+        ],
+        "additional_context": "We are a very early-stage startup looking to test the Dutch market with minimal investment. We prefer the simplest structure possible."
+      },
+      "expected_triggers": [
+        "WBSO and Innovation Box Tax Credits Research (industry == 'Software & Technology')"
+      ]
+    },
+    {
+      "name": "Large Corporation - Full Details",
+      "description": "Large established company with comprehensive information",
+      "request": {
+        "company_name": "Global Enterprise Corp",
+        "industry": "Technology",
+        "company_type": "Corporation",
+        "founding_year": 2010,
+        "headquarters_location": "United States",
+        "primary_jurisdiction": "Netherlands",
+        "target_markets": [
+          "Netherlands",
+          "Belgium",
+          "Germany",
+          "France"
+        ],
+        "entry_goals": [
+          "Establish European headquarters",
+          "Hire employees",
+          "Set up R&D center",
+          "Register for VAT",
+          "Apply for tax incentives"
+        ],
+        "selected_legal_topics": [
+          "employment-law",
+          "tax-compliance",
+          "data-protection"
+        ],
+        "current_revenue": 50000000.0,
+        "projected_revenue": 100000000.0,
+        "budget_range": "€5,000,000 - €10,000,000",
+        "funding_status": "Public Company",
+        "employee_count": 500,
+        "planned_employees": 1000,
+        "current_operations": [
+          "Software development",
+          "Research and development",
+          "Sales and marketing",
+          "Customer support",
+          "Operations"
+        ],
+        "key_products_services": [
+          "Enterprise software solutions",
+          "Cloud services",
+          "AI/ML platforms",
+          "Consulting services"
+        ],
+        "timeline_preference": "12-18 months",
+        "urgency_level": "Medium",
+        "preferred_structure": "BV",
+        "tax_considerations": [
+          "Corporate income tax optimization",
+          "WBSO R&D tax credits",
+          "Innovation Box regime",
+          "Transfer pricing",
+          "VAT compliance",
+          "Withholding taxes"
+        ],
+        "compliance_priorities": [
+          "GDPR compliance",
+          "Employment law compliance",
+          "Tax compliance",
+          "Data security",
+          "Corporate governance"
+        ],
+        "additional_context": "We are a large technology corporation planning to establish our European headquarters in Amsterdam. We will hire hundreds of employees, set up an R&D center, and need comprehensive guidance on tax optimization strategies including WBSO credits and Innovation Box. We also need detailed employment law guidance for hiring in the Netherlands."
+      },
+      "expected_triggers": [
+        "WBSO and Innovation Box Tax Credits Research (industry == 'Technology' - note: won't trigger, needs exact 'Software & Technology')",
+        "Dutch Employment Contracts and 30% Ruling Research (selected_legal_topics contains 'employment-law')",
+        "Payroll Tax and Employment Research (entry_goals contains 'Hire employees')"
+      ]
+    }
+  ],
+  "usage_instructions": {
+    "description": "How to use these test cases",
+    "steps": [
+      "1. Copy any test case 'request' object",
+      "2. Send POST request to http://localhost:8000/generate-memo",
+      "3. Check which conditional triggers were activated",
+      "4. Verify the response contains expected sections",
+      "5. Compare actual triggers with 'expected_triggers'"
+    ],
+    "testing_tips": [
+      "Start with 'Minimal Request' to test basic functionality",
+      "Use 'Software & Technology' to test WBSO research trigger",
+      "Use 'Employment Law Focus' to test employment research triggers",
+      "Use 'Software Company with Employment Focus' to test multiple triggers",
+      "Check server logs to see which tasks were planned",
+      "Verify response sections match expected triggers"
+    ]
+  }
+}
+

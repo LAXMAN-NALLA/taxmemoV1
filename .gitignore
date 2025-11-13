@@ -1,0 +1,68 @@
+# Environment variables - NEVER PUSH THESE
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+venv*/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Test outputs (optional - uncomment if you don't want test files)
+# backend/test_*.py
+# backend/*_test.py
+# backend/TEST_*.json
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Source documents (optional - uncomment if you don't want to push documents)
+# source docs/
+
