@@ -25,7 +25,7 @@ st.sidebar.markdown("---")
 # API Configuration
 API_URL = st.sidebar.text_input(
     "Backend API URL",
-    value="http://localhost:8000",
+    value="https://taxmemov1.onrender.com",
     help="Enter your backend API URL"
 )
 
